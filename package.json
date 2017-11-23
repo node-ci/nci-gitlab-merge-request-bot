@@ -1,0 +1,41 @@
+{
+  "name": "nci-gitlab-merge-request-bot",
+  "version": "1.0.0-alpha.1",
+  "description": "Nci bot that posts build info to initail gitlab merge request",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "jshint ./",
+    "test": "mocha --bail --reporter=spec --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-ci/nci-gitlab-merge-request-bot.git"
+  },
+  "keywords": [
+    "nciplugin",
+    "gitlab",
+    "merge",
+    "request",
+    "bot"
+  ],
+  "author": "Oleg Korobenko <oleg.korobenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-ci/nci-gitlab-merge-request-bot/issues"
+  },
+  "homepage": "https://github.com/node-ci/nci-gitlab-merge-request-bot",
+  "dependencies": {
+    "twostep": "0.4.2",
+    "underscore": "1.8.3"
+  },
+  "peerDependencies": {
+    "nci": ">=1.0.1 <1.1.0"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "jshint": "2.4.4",
+    "mocha": "2.0.1",
+    "proxyquire": "1.7.4",
+    "sinon": "1.17.2"
+  }
+}
