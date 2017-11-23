@@ -25,8 +25,10 @@
   },
   "homepage": "https://github.com/node-ci/nci-gitlab-merge-request-bot",
   "dependencies": {
+    "got": "5.7.1",
     "twostep": "0.4.2",
-    "underscore": "1.8.3"
+    "underscore": "1.8.3",
+    "url-join": "2.0.2"
   },
   "peerDependencies": {
     "nci": ">=1.0.1 <1.1.0"
