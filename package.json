@@ -1,6 +1,6 @@
 {
   "name": "nci-gitlab-merge-request-bot",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Nci bot that posts build info to initail gitlab merge request",
   "main": "lib/index.js",
   "scripts": {
