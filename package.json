@@ -26,6 +26,7 @@
   "homepage": "https://github.com/node-ci/nci-gitlab-merge-request-bot",
   "dependencies": {
     "got": "5.7.1",
+    "queue": "4.4.2",
     "twostep": "0.4.2",
     "underscore": "1.8.3",
     "url-join": "2.0.2"
